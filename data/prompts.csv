@@ -1,0 +1,11 @@
+prompt_id,category,prompt
+1,factual,"Explain why the sky appears blue during the day."
+2,factual,"What causes the seasons on Earth?"
+3,reasoning,"A store reduces the price of a $60 item by 25%. Explain how you would determine the new price."
+4,reasoning,"Explain why having more evidence does not always guarantee that a conclusion is correct."
+5,coding,"Explain recursion in programming to someone who has never encountered it before."
+6,coding,"Explain the difference between a lsit and a dictionary in Python and give an example of when you would use each."
+7,creative,"Write a short story about someone who discovers a mysterious key while walking home."
+8,creative,"Describe a futuristic city where most transportation occurs underground."
+9,general,"What are some advantages and disadvantages of working from home?"
+10,general,"Give advice to a college student who has difficulty managing multiple assignments at the same time."
