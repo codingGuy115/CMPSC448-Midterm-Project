@@ -1,7 +1,12 @@
-import torch
-import torch.nn as nn
+import torch  # pyright: ignore[reportMissingImports]
+import torch.nn as nn  # pyright: ignore[reportMissingImports]
 
-from preprocessing import (
+from preprocessing import prepare_experiment
+
+# Choose which RQ2 experiment to run
+MODE = "combined"  # Options: "input", "output", "combined"
+
+(
     X_train_output,
     X_val_output,
     X_test_output,
@@ -9,8 +14,7 @@ from preprocessing import (
     y_val,
     y_test,
     vocab
-)
-
+) = prepare_experiment(MODE)
 
 # --------------------------------------------------
 # Step 9: Convert prepared data into PyTorch tensors
